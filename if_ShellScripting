@@ -1,0 +1,12 @@
+If condition shell scripting
+
+
+#!/bin/bash
+echo "Enter your file Nam "
+read anyfile
+if [ -f $anyfile]
+then 
+    echo"File $anyfile is here"
+else
+    echo "File $anyfile not here"
+fi
