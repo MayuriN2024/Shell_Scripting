@@ -1,0 +1,29 @@
+Let's Start Learning Shell_Scripting
+
+------------------------------------------------
+first : Make any particular dir
+mkdir myfirstscript
+
+second: go to that directory
+cd myfirstscript
+
+third: create file
+  $vim first.sh
+
+fourth: start writing into first.sh
+    #!/bin/bash
+    echo "What is your name"
+    read a1            ("it is use for taking input)
+    echo "your name is $a1"
+
+output:::: your name is mayuri
+
+five : save and come out of vim editor
+
+six: give permission to execute file 
+  $chmod 700 first.sh
+
+seven: run the file 
+  $./ first.sh  or bash first.sh
+
+
