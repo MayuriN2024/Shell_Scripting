@@ -1,0 +1,26 @@
+lets learn For
+======================
+
+#1/bin/bash
+
+echo "enter no from first to ten no $1"
+
+for (( i = 0;  i<=$1; i++))
+do
+        echo "$i"
+done
+~
+~
+
+
+output: ./first.sh  200 (isme first he sb output wala no. dena pdega ) 
+
+
+#!/bin/bash
+
+echo "print even no"
+for (( i=2; i<=20; i+=2))
+do
+        echo "$i"
+
+done
